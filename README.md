@@ -7,7 +7,7 @@ Use FFMPEG to replace the audio track of the video -- while copying bit-for-bit 
  - MAKE SURE IT IS NAMED THE SAME AS YOUR SOURCE VIDEO, but with a .wav or .mp3 extension.
 
 ## Add Right-Click Menu item (for Windows Users)
-1. Open .reg file and add any other File Extensions you want to add a right-click menu for to this FFMPEG Replace Audio Track function.
+1. Open .reg file in notepad and add any other File Extensions you want to add a right-click menu for to this FFMPEG Replace Audio Track function.
 1. Edit the file location of ffmpeg-replace-audio-track.bat to where you can find it on your computer.
 1. Double-Click the .reg file and accept the prompts to add it to your PCs registry.
 - __Now to replace the audio track of your file all you need to do is right-click the movie file and select "FFMPEG Replace Audio Track".__
