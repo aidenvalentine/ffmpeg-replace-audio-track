@@ -2,8 +2,8 @@
 Use FFMPEG to replace the audio track of the video -- while copying bit-for-bit the video track to a new file (without rerending it.).
 
 ## HOW TO USE:
-1. Drag-and-drop a file (i.e. myfile.mxf) onto this .bat file. 
- - This .bat will look for the audio track in the same directory (i.e. myfile.wav) and mix them down into a new video.
+1. Drag-and-drop a file (i.e. __C:\videos\myfile.mxf__) onto this .bat file. 
+ - This .bat will look for the audio track in the same directory (i.e. __C:\videos\myfile.wav__) and mix them down into a new video.
  - MAKE SURE IT IS NAMED THE SAME AS YOUR SOURCE VIDEO, but with a .wav or .mp3 extension.
 
 ## Add Right-Click Menu item (for Windows Users)
