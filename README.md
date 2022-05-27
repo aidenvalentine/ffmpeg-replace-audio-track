@@ -22,3 +22,7 @@ Anywhere after the named input files add: __-acodec aac -ab 128k -ar 48000 -ac 2
 Use the setting you need for your project. __-acodec__ (which audio codec to use) __-ab__ (audio bitrate) __-ar__ (audio sampling frequency) __-ac__ (# of audio channels)
 
 See (https://ffmpeg.org/ffmpeg.html#AVOptions) for more info.
+
+## INSTALL FFMPEG
+__Please note__: You __must install FFMPEG__. Save the ffmpeg.exe, ffprobe.exe, and ffplay.exe into a location like C:\bin. Then add C:\bin to your PATH environment variable for your computer.
+(https://windowsloop.com/install-ffmpeg-windows-10/)
