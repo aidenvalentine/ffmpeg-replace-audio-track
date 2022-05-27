@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Dear User: Be sure to add any other file extensions you may want to add a right-click context menu to for this function. This is setup for .mxf and .mp4 only.
+; These next 4 lines add a Right-Click Context Menu for .mxf files.
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mxf\shell\FFMPEGReplaceAudioTrack]
+@="FFMPEG Replace Audio Track"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mxf\shell\FFMPEGReplaceAudioTrack\command]
+@="\"C:\\Tools\\ffmpeg-replace-audio-track.bat\" \"%1\""
+
+; These next 4 lines add a Right-Click Context Menu for .mp4 files.
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\FFMPEGReplaceAudioTrack]
+@="FFMPEG Replace Audio Track"
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\FFMPEGReplaceAudioTrack\command]
+@="\"C:\\Tools\\ffmpeg-replace-audio-track.bat\" \"%1\""
